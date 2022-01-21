@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Create json file:
+    - name: Create json file
       run: |
         a.py ${{ secrets.SECRET_KEY }}
         zip -r a.zip
