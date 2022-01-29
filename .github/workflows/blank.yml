@@ -48,5 +48,4 @@ jobs:
       run: |
         source zappa-deploy-env/bin/activate
         pip install zappa
-        zappa init
         zappa deploy dev
