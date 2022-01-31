@@ -1,10 +1,10 @@
 {
   "env": {
-    "profile_name": "",
-    "s3_bucket": "",
-    "runtime": "",
-    "project_name": ""
-    "django_settings": "",
-    "aws_region": ""
+    "profile_name": "jusehun",
+    "s3_bucket": "test",
+    "runtime": "python3.9",
+    "project_name": "test"
+    "django_settings": "app.settings.develop",
+    "aws_region": "ap-northeast-2"
   }
 }
