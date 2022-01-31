@@ -22,7 +22,7 @@ jobs:
     - name: Create virtual env
       run: |
         pip install virtualenv
-        virtualenv --python=3.8 zappa-deploy-env
+        virtualenv --python=3.9 zappa-deploy-env
         source zappa-deploy-env/bin/activate
     
     - name: Configure AWS Credentials
@@ -48,4 +48,5 @@ jobs:
       run: |
         source zappa-deploy-env/bin/activate
         pip install zappa
-        zappa deploy
+        zappa init
+        dev
