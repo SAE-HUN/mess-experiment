@@ -1,0 +1,10 @@
+{
+  "env": {
+    "profile_name": "",
+    "s3_bucket": "",
+    "runtime": "",
+    "project_name": ""
+    "django_settings": "",
+    "aws_region": ""
+  }
+}
