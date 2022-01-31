@@ -3,6 +3,6 @@
     "s3_bucket": "elasticbeanstalk-ap-northeast-2-463328802866",
     "runtime": "python3.9",
     "project_name": "test"
-    "django_settings": "app.settings.develop"
+    "django_settings": "app.settings"
   }
 }
