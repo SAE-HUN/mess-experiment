@@ -1,6 +1,5 @@
 {
   "env": {
-    "profile_name": "jusehun",
     "s3_bucket": "test",
     "runtime": "python3.9",
     "project_name": "test"
