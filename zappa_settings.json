@@ -2,7 +2,7 @@
   "env": {
     "s3_bucket": "elasticbeanstalk-ap-northeast-2-463328802866",
     "runtime": "python3.8",
-    "project_name": "crypto",
+    "project_name": "test",
     "django_settings": "app.app.settings"
   }
 }
