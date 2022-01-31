@@ -14,15 +14,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.9
+    - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
-        python-version: "3.9"
+        python-version: "3.8"
     
     - name: Create virtual env
       run: |
         pip install virtualenv
-        virtualenv --python=3.9 zappa-deploy-env
+        virtualenv --python=3.8 zappa-deploy-env
         source zappa-deploy-env/bin/activate
     
     - name: Configure AWS Credentials
