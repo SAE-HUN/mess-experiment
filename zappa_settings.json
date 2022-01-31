@@ -3,7 +3,6 @@
     "s3_bucket": "test",
     "runtime": "python3.9",
     "project_name": "test"
-    "django_settings": "app.settings.develop",
-    "aws_region": "ap-northeast-1"
+    "django_settings": "app.settings.develop"
   }
 }
