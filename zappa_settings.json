@@ -4,6 +4,6 @@
     "runtime": "python3.9",
     "project_name": "test"
     "django_settings": "app.settings.develop",
-    "aws_region": "ap-northeast-2"
+    "aws_region": "ap-northeast-1"
   }
 }
