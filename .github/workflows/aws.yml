@@ -35,7 +35,7 @@ jobs:
         run: |
           aws elasticbeanstalk create-application-version \
           --application-name ${{ env.APPLICATION}} \
-          --source-bundle S3Bucket="${{ env.S3_BUCKET }}", S3Key="${{ env.PACKAGE }}" \
+          --source-bundle S3Bucket="${{ env.S3_BUCKET }}",S3Key="${{ env.PACKAGE }}" \
           --version-label "${{ github.sha }}"
       
       - name: Update new appliaction
